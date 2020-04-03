@@ -1,0 +1,3 @@
+<schema targetNamespace="http://xmlns.oracle.com/pcbpel/adapter/opaque/" xmlns="http://www.w3.org/2001/XMLSchema" xmlns:encoding="UTF8">
+<element name="opaqueElement" type="base64Binary"/>
+</schema>
