@@ -8,6 +8,12 @@ Refer to the blog - [OIC Advanced Error Handling ](https://www.ateam-oracle.com/
 
 The example uses [ATP database] for a parking lot table. We will also have the OIC sample integrations and ATP scripts at the end of this blog.
 
+## How to Install and Run
+Download the IAR files from this project and import into target OIC environment
+Configure the required connections and activate the integrations
+Download the parking lot table creation DDL script file and execute on target database.
+Refer to the blog - [OIC Advanced Error Handling ](https://www.ateam-oracle.com/advanced-error-handling-oic), for more detailed instructions
+
 ### High Level Design 
  Figure below shows the high level design of solution using OIC flows and [ATP DB](https://docs.oracle.com/en/cloud/paas/atp-cloud/index.html) for parking lot table. The OIC solution use Persister, Dispatcher and Processor flows.
  
