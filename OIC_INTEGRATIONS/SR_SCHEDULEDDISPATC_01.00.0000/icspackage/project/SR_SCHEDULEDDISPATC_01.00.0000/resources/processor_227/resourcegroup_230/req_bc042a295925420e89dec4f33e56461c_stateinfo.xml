@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oracle-xsl-webmapper:StateInfo xmlns:oracle-xsl-webmapper="http://www.oracle.com/xsl/webmapper/state" version="1.1">
+   <oracle-xsl-webmapper:ErrorsCount>0</oracle-xsl-webmapper:ErrorsCount>
+   <oracle-xsl-webmapper:WarningsCount>0</oracle-xsl-webmapper:WarningsCount>
+   <oracle-xsl-webmapper:IsImported>false</oracle-xsl-webmapper:IsImported>
+   <oracle-xsl-webmapper:HasMappings>true</oracle-xsl-webmapper:HasMappings>
+   <oracle-xsl-webmapper:StateInfoIsStale>false</oracle-xsl-webmapper:StateInfoIsStale>
+   <oracle-xsl-webmapper:SourcesReferenced>
+      <element xmlns:ns0="http://xmlns.oracle.com/cloud/adapter/atpdatabase/GetCreationRequestsFromATP_REQUEST/types">ns0:GetCreationRequestsFromATPOutput</element>
+      <rpcStyle>false</rpcStyle>
+      <type>2</type>
+      <uriAbsoluteLocation>file:/u01/data/domains/oicphx5I_domain/servers/oicphx5I_server_2/storage/ics/tmp/WC/itg_1495570523923555552/resources/processor_46/resourcegroup_53/generated.wsdl</uriAbsoluteLocation>
+      <param>ThisRequest</param>
+      <primary>false</primary>
+   </oracle-xsl-webmapper:SourcesReferenced>
+   <oracle-xsl-webmapper:AllSources>
+      <element xmlns:ns1="http://www.oracle.com/2014/03/ics/schedule">ns1:schedule</element>
+      <rpcStyle>false</rpcStyle>
+      <type>1</type>
+      <uriAbsoluteLocation>file:/u01/data/domains/oicphx5I_domain/servers/oicphx5I_server_2/storage/ics/tmp/WC/itg_1495570523923555552/resources/processor_8/resourcegroup_9/ICSSchedule_1.xsd</uriAbsoluteLocation>
+      <primary>true</primary>
+   </oracle-xsl-webmapper:AllSources>
+   <oracle-xsl-webmapper:AllSources>
+      <element xmlns:ns2="http://xmlns.oracle.com/cloud/adapter/atpdatabase/GetCreationRequestsFromATP_REQUEST/types">ns2:GetCreationRequestsFromATPOutput</element>
+      <rpcStyle>false</rpcStyle>
+      <type>2</type>
+      <uriAbsoluteLocation>file:/u01/data/domains/oicphx5I_domain/servers/oicphx5I_server_2/storage/ics/tmp/WC/itg_1495570523923555552/resources/processor_46/resourcegroup_53/generated.wsdl</uriAbsoluteLocation>
+      <param>ThisRequest</param>
+      <primary>false</primary>
+   </oracle-xsl-webmapper:AllSources>
+</oracle-xsl-webmapper:StateInfo>

@@ -1,0 +1,31 @@
+<!--
+Copyright © 2020, Oracle and/or its affiliates. All rights reserved.
+Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
+-->
+<adapter-config xsdTargetNamespace="http://xmlns.oracle.com/cloud/adapter/atpdatabase/ErrorStatus_ATP_REQUEST/types" name="ErrorStatus_ATP_REQUEST_ptt" adapter="atpdatabase" wsdlLocation="ErrorStatus_ATP_REQUEST.wsdl" xmlns="http://platform.integration.oracle/blocks/adapter/fw/metadata">
+  <connection-factory location="eis/DB/SR_ATPS">
+    <non-managed-connection managedConnectionFactoryClassName="oracle.tip.adapter.db.DBManagedConnectionFactory">
+      <property name="IsSSLEnabled" value="true"/>
+      <property name="MaxConnections" value="35"/>
+      <property name="RuntimeJKSUnzipLoc" value="SR_ATPS"/>
+      <property name="ConnectionString" value="2B731F769540C4FE1208361ADF9496D40EA793A78FF9C66917C6FD194B701F2C7B3466EAF9A2F9D4D5360A3CC554B9A69D051A6B0F46DB19BE9F004C7D132420A22673AC7CC6746DC9B30791A2DFD38B7CCEE4FFE7CFE72854E493BA7F95A128056C0FD9AD6776EA78334AC6948CD6F263996D82BF83C465B9383AA6E1224FE112A60A028D5C043F25A77CB7E91E45FB431338A4C394D0283D6A96059297ACB5443CCF5E7A42B271088CF6500444AF7679CF4B51EAF463651B055D9829AF3C211FB186BBCA768C902038A9166973C942AE8D347B251FDC6FAB7D62154FFE24592724817EBE4DFC3E288BFB99EE9034F0B5BCBC25EBCC77EE6346610AD5DA4FA77551F33CA52C66D0E49C59C9933871C5954B5618811E8FD47084309D0DE772338B5D11730AFDAAD86C1F7D203B620210EA5DAE4E0A7C3BD2875C59CA05DE266F36B0D4B00D55445315E8F5E3F2EB290B5E3D603EB6644E905DD5FC7CB5BBF44FA8EF9C8B7A0C7FC700816A27F2D0FADD"/>
+      <property name="MaxReadConnections" value="15"/>
+      <property name="ConnectionUniqueKey" value="C948503773CC51E30844B7228F4AF85B0EBE0C7D5E376176EF3DDD29D9470A7C"/>
+      <property name="PlatformClassName" value="org.eclipse.persistence.platform.database.Oracle10Platform"/>
+      <property name="csfkey" value="eb217dfa4c335bc6e3fbe59aa1a11b8a5c195033cc1e16e7ef74c9adfbee16d7"/>
+      <property name="DriverClassName" value="oracle.jdbc.OracleDriver"/>
+      <property name="MinConnections" value="2"/>
+      <property name="MinReadConnections" value="1"/>
+      <property name="csfMap" value="oracle.cloud.adapter"/>
+    </non-managed-connection>
+  </connection-factory>
+  <endpoint-interaction portType="ErrorStatus_ATP_REQUEST_ptt" operation="update">
+    <interaction-spec className="oracle.tip.adapter.db.DBWriteInteractionSpec">
+      <property name="DetectOmissions" value="true"/>
+      <property name="DescriptorName" value="ErrorStatus_ATP.PayloadParkingLotTab"/>
+      <property name="MappingsMetaDataURL" value="ErrorStatus_ATP_REQUEST-or-mappings.xml"/>
+      <property name="DmlType" value="update"/>
+      <property name="GetActiveUnitOfWork" value="false"/>
+    </interaction-spec>
+  </endpoint-interaction>
+</adapter-config>

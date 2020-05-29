@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+   <entry key="PAYLOAD_PARKING_LOT_TAB.PAYLOAD:db_column_type">VARCHAR2</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB.ERROR:db_column_type">VARCHAR2</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB.ID:db_column_scale">0</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB:db_table_type">TABLE</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB.ID:db_column_not_null">true</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB.ID:db_column_precision">38</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB.STATUS:db_column_type">VARCHAR2</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB.PAYLOAD:db_column_size">10000</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB.ERROR:db_column_size">2000</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB.ID:db_column_type">NUMBER</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB.ERROR:db_column_not_null">false</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB:db_column_3">ERROR</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB.STATUS:db_column_size">20</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB:db_column_2">STATUS</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB:db_column_1">PAYLOAD</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB:db_column_0">ID</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB.PAYLOAD:db_column_not_null">false</entry>
+   <entry key="PAYLOAD_PARKING_LOT_TAB.STATUS:db_column_not_null">false</entry>
+</properties>

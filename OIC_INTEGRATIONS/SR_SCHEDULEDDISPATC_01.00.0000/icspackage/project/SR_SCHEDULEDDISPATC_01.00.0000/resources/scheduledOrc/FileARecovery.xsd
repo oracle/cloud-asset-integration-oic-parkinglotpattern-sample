@@ -1,0 +1,5 @@
+<!--
+Copyright © 2020, Oracle and/or its affiliates. All rights reserved.
+Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
+-->
+<schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/ics/scheduler" xmlns="http://www.w3.org/2001/XMLSchema">  <element name="process" type="anyType"/>  <element name="processResponse">    <complexType>      <sequence>        <element name="result" type="string"/>      </sequence>    </complexType>  </element></schema>

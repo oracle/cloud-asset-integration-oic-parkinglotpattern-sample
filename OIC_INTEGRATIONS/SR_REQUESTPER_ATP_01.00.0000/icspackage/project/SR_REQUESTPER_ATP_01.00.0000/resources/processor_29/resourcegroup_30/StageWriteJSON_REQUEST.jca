@@ -1,0 +1,20 @@
+<!--
+Copyright © 2020, Oracle and/or its affiliates. All rights reserved.
+Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
+-->
+<adapter-config xsdTargetNamespace="http://xmlns.oracle.com/cloud/adapter/stagefile/StageWriteJSON_REQUEST/types" name="StageWriteJSON_REQUESTPortType" adapter="stagefile" wsdlLocation="StageWriteJSON_REQUEST.wsdl" xmlns="http://platform.integration.oracle/blocks/adapter/fw/metadata">
+  <connection-factory location="ics/FileAdapter">
+    <non-managed-connection managedConnectionFactoryClassName="oracle.tip.adapter.file.FileManagedConnectionFactory"/>
+  </connection-factory>
+  <endpoint-activation portType="StageWriteJSON_REQUESTPortType" operation="Write">
+    <activation-spec className="oracle.tip.adapter.file.inbound.FileActivationSpec">
+      <property name="Operation" value="Write"/>
+      <property name="ICSUploadSchemaElementNameSpace" value="http://xmlns.oracle.com/cloud/adapter/stagefile/StageWriteJSON/types"/>
+      <property name="Append" value="false"/>
+      <property name="ICSUploadSchemaElement" value="request-wrapper"/>
+      <property name="encryptContent" value="false"/>
+      <property name="HeterogeneousSchema" value="true"/>
+      <property name="OpaqueSchema" value="false"/>
+    </activation-spec>
+  </endpoint-activation>
+</adapter-config>

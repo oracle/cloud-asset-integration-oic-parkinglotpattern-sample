@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oracle-xsl-webmapper:StateInfo xmlns:oracle-xsl-webmapper="http://www.oracle.com/xsl/webmapper/state" version="1.1">
+   <oracle-xsl-webmapper:ErrorsCount>0</oracle-xsl-webmapper:ErrorsCount>
+   <oracle-xsl-webmapper:WarningsCount>0</oracle-xsl-webmapper:WarningsCount>
+   <oracle-xsl-webmapper:IsImported>false</oracle-xsl-webmapper:IsImported>
+   <oracle-xsl-webmapper:HasMappings>true</oracle-xsl-webmapper:HasMappings>
+   <oracle-xsl-webmapper:StateInfoIsStale>false</oracle-xsl-webmapper:StateInfoIsStale>
+   <oracle-xsl-webmapper:SourcesReferenced>
+      <element xmlns:ns0="http://xmlns.oracle.com/cloud/adapter/REST/postAccount_REQUEST/types">ns0:execute</element>
+      <rpcStyle>false</rpcStyle>
+      <type>2</type>
+      <uriAbsoluteLocation>file:/u01/data/domains/oicphx5I_domain/servers/oicphx5I_server_2/storage/ics/tmp/WC/itg_2649452034577006945/resources/application_8/outbound_9/resourcegroup_10/postAccount_REQUEST.wsdl</uriAbsoluteLocation>
+      <primary>true</primary>
+   </oracle-xsl-webmapper:SourcesReferenced>
+   <oracle-xsl-webmapper:SourcesReferenced>
+      <element xmlns:ns1="http://www.oracle.com/2014/03/ics/fault">ns1:fault</element>
+      <rpcStyle>false</rpcStyle>
+      <type>1</type>
+      <uriAbsoluteLocation>file:/u01/data/domains/oicphx5I_domain/servers/oicphx5I_server_2/storage/ics/tmp/WC/itg_2649452034577006945/resources/processor_15/resourcegroup_16/ICSFault.xsd</uriAbsoluteLocation>
+      <param>RealAccountCreationScopeFaultObject</param>
+      <primary>false</primary>
+   </oracle-xsl-webmapper:SourcesReferenced>
+   <oracle-xsl-webmapper:AllSources>
+      <element xmlns:ns2="http://xmlns.oracle.com/cloud/adapter/REST/postAccount_REQUEST/types">ns2:execute</element>
+      <rpcStyle>false</rpcStyle>
+      <type>2</type>
+      <uriAbsoluteLocation>file:/u01/data/domains/oicphx5I_domain/servers/oicphx5I_server_2/storage/ics/tmp/WC/itg_2649452034577006945/resources/application_8/outbound_9/resourcegroup_10/postAccount_REQUEST.wsdl</uriAbsoluteLocation>
+      <primary>true</primary>
+   </oracle-xsl-webmapper:AllSources>
+   <oracle-xsl-webmapper:AllSources>
+      <element xmlns:ns3="http://www.oracle.com/2014/03/ics/fault">ns3:fault</element>
+      <rpcStyle>false</rpcStyle>
+      <type>1</type>
+      <uriAbsoluteLocation>file:/u01/data/domains/oicphx5I_domain/servers/oicphx5I_server_2/storage/ics/tmp/WC/itg_2649452034577006945/resources/processor_15/resourcegroup_16/ICSFault.xsd</uriAbsoluteLocation>
+      <param>RealAccountCreationScopeFaultObject</param>
+      <primary>false</primary>
+   </oracle-xsl-webmapper:AllSources>
+</oracle-xsl-webmapper:StateInfo>

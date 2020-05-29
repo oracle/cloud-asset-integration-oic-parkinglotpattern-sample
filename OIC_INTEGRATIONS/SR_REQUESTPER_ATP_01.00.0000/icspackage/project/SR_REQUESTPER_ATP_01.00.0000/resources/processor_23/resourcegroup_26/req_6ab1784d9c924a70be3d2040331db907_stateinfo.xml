@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright © 2020, Oracle and/or its affiliates. All rights reserved.
+Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
+-->
+<oracle-xsl-webmapper:StateInfo xmlns:oracle-xsl-webmapper="http://www.oracle.com/xsl/webmapper/state" version="1.1">
+   <oracle-xsl-webmapper:ErrorsCount>0</oracle-xsl-webmapper:ErrorsCount>
+   <oracle-xsl-webmapper:WarningsCount>0</oracle-xsl-webmapper:WarningsCount>
+   <oracle-xsl-webmapper:IsImported>false</oracle-xsl-webmapper:IsImported>
+   <oracle-xsl-webmapper:HasMappings>true</oracle-xsl-webmapper:HasMappings>
+   <oracle-xsl-webmapper:StateInfoIsStale>false</oracle-xsl-webmapper:StateInfoIsStale>
+   <oracle-xsl-webmapper:SourcesReferenced>
+      <element xmlns:ns0="http://xmlns.oracle.com/cloud/adapter/REST/postAccount_REQUEST/types">ns0:execute</element>
+      <rpcStyle>false</rpcStyle>
+      <type>2</type>
+      <uriAbsoluteLocation>file:/u01/data/domains/oicphx5I_domain/servers/oicphx5I_server_2/storage/ics/tmp/WC/itg_2214323752856976121/resources/application_8/outbound_9/resourcegroup_10/postAccount_REQUEST.wsdl</uriAbsoluteLocation>
+      <primary>true</primary>
+   </oracle-xsl-webmapper:SourcesReferenced>
+   <oracle-xsl-webmapper:SourcesReferenced>
+      <rpcStyle>false</rpcStyle>
+      <type>3</type>
+      <param>jsonstringpayload</param>
+      <primary>false</primary>
+   </oracle-xsl-webmapper:SourcesReferenced>
+   <oracle-xsl-webmapper:AllSources>
+      <element xmlns:ns1="http://xmlns.oracle.com/cloud/adapter/REST/postAccount_REQUEST/types">ns1:execute</element>
+      <rpcStyle>false</rpcStyle>
+      <type>2</type>
+      <uriAbsoluteLocation>file:/u01/data/domains/oicphx5I_domain/servers/oicphx5I_server_2/storage/ics/tmp/WC/itg_2214323752856976121/resources/application_8/outbound_9/resourcegroup_10/postAccount_REQUEST.wsdl</uriAbsoluteLocation>
+      <primary>true</primary>
+   </oracle-xsl-webmapper:AllSources>
+   <oracle-xsl-webmapper:AllSources>
+      <rpcStyle>false</rpcStyle>
+      <type>3</type>
+      <param>jsonstringpayload</param>
+      <primary>false</primary>
+   </oracle-xsl-webmapper:AllSources>
+</oracle-xsl-webmapper:StateInfo>

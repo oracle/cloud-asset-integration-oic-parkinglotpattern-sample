@@ -1,0 +1,38 @@
+<!--
+Copyright © 2020, Oracle and/or its affiliates. All rights reserved.
+Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
+-->
+<adapter-config xsdTargetNamespace="http://xmlns.oracle.com/cloud/adapter/REST/postAccount_REQUEST/types" name="postAccount_REQUESTPortType" adapter="rest" wsdlLocation="postAccount_REQUEST.wsdl" xmlns="http://platform.integration.oracle/blocks/adapter/fw/metadata">
+  <connection-factory location="cloud/CloudAdapter">
+    <non-managed-connection managedConnectionFactoryClassName="oracle.cloud.connector.rest.RestAdapterConnectionFactory">
+      <property name="securityPolicy" value="BASIC_AUTH"/>
+      <property name="cloud.adapter.sdk.version" value="19.4.3"/>
+      <property name="cloud.adapter.plugin.version" value="19.4.3"/>
+    </non-managed-connection>
+  </connection-factory>
+  <endpoint-activation portType="postAccount_REQUESTPortType" operation="execute">
+    <activation-spec className="oracle.tip.adapter.cloud.CloudActivationSpec">
+      <property name="targetOperation" value="execute"/>
+      <property name="operationPath" value="http://xmlns.oracle.com/cloud/adapter/REST/postAccount_REQUEST/execute"/>
+      <property name="allowChangeDefaultNamespace" value="false"/>
+      <property name="operationPath" value="http://xmlns.oracle.com/cloud/adapter/REST/postAccount_REQUEST/execute"/>
+      <property name="HTTPHeadersAdded" value="true"/>
+      <property name="HttpVerb" value="POST"/>
+      <property name="RequestMediaType" value="application/json"/>
+      <property name="integrationWSDLNamespace" value="http://xmlns.oracle.com/cloud/adapter/REST/postAccount_REQUEST"/>
+      <property name="isRequestRawBytes" value="false"/>
+      <property name="copyFaultFromModel" value="true"/>
+      <property name="requestJsonTopLevelArray" value="false"/>
+      <property name="RequestElementName" value="request-wrapper"/>
+      <property name="generatePartnerLink" value="false"/>
+      <property name="RequestSample" value="{ &quot;Account&quot;:  {  &quot;id&quot;:123456789,  &quot;name&quot;:&quot;Johnny Doe&quot;,  &quot;branch&quot;:&quot;Times Square&quot;  } }"/>
+      <property name="invocationStyle" value="NOTIFICATION"/>
+      <property name="operations" value="default"/>
+      <property name="RequestElementNS" value="http://xmlns.oracle.com/cloud/adapter/REST/postAccount/types"/>
+      <property name="postQueryParamsAsContent" value="false"/>
+      <property name="targetOperation" value="execute"/>
+      <property name="integrationSchemaNamespace" value="http://xmlns.oracle.com/cloud/adapter/REST/postAccount_REQUEST/types"/>
+      <property name="ResourceURI" value="/account"/>
+    </activation-spec>
+  </endpoint-activation>
+</adapter-config>

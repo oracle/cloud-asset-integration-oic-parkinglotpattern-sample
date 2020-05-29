@@ -1,0 +1,46 @@
+<!--
+Copyright © 2020, Oracle and/or its affiliates. All rights reserved.
+Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
+-->
+<adapter-config xsdTargetNamespace="http://xmlns.oracle.com/cloud/adapter/collocatedics/CallAccountCreation_REQUEST/types" name="CallAccountCreation_REQUESTPortType" adapter="collocatedics" wsdlLocation="CallAccountCreation_REQUEST.wsdl" xmlns="http://platform.integration.oracle/blocks/adapter/fw/metadata">
+  <connection-factory location="cloud/CloudAdapter">
+    <non-managed-connection managedConnectionFactoryClassName="oracle.cloud.connector.rest.RestAdapterConnectionFactory">
+      <property name="securityPolicy" value="NONE"/>
+      <property name="cloud.adapter.sdk.version" value="18.1.5"/>
+      <property name="cloud.adapter.plugin.version" value="18.1.5"/>
+      <property name="serviceType" value="REST"/>
+      <property name="applicationVersion" value="1.0"/>
+      <property name="isCollocated" value="true"/>
+    </non-managed-connection>
+  </connection-factory>
+  <endpoint-interaction portType="CallAccountCreation_REQUESTPortType" operation="default">
+    <interaction-spec className="oracle.tip.adapter.cloud.CloudInteractionSpec">
+      <property name="targetOperation" value="default"/>
+      <property name="operationPath" value="https://OIC_HOSTNAME:443/ic/api/integration/v1/flows/rest/SR_ASYNC_PROCESSOR/1.0/account"/>
+      <property name="allowChangeDefaultNamespace" value="false"/>
+      <property name="integration_name" value="SR_Async_Processor"/>
+      <property name="integration_operation" value="default"/>
+      <property name="integration_code" value="SR_ASYNC_PROCESSOR"/>
+      <property name="HTTPHeadersAdded" value="true"/>
+      <property name="HttpVerb" value="POST"/>
+      <property name="ResponseElementName" value="default"/>
+      <property name="integration_version" value="01.00.0000"/>
+      <property name="RequestMediaType" value="application/json"/>
+      <property name="integration_created" value="2020-03-07T10:54:22.930+0000"/>
+      <property name="enforceResponseSizeRestriction" value="true"/>
+      <property name="operation" value="default"/>
+      <property name="integration_service" value="/account"/>
+      <property name="RequestElementName" value="request-wrapper"/>
+      <property name="generatePartnerLink" value="false"/>
+      <property name="ResponseElementNS" value="http://xmlns.oracle.com/cloud/adapter/collocatedics/CallAccountCreation_REQUEST/types"/>
+      <property name="QueryParameters" value=""/>
+      <property name="resources" value="/account"/>
+      <property name="RequestElementNS" value="http://xmlns.oracle.com/cloud/adapter/collocatedics/CallAccountCreation_REQUEST/types"/>
+      <property name="integration_endpointURI" value="/ic/api/integration/v1/flows/rest/SR_ASYNC_PROCESSOR/1.0/metadata"/>
+      <property name="integration_id" value="SR_ASYNC_PROCESSOR|01.00.0000"/>
+      <property name="connectionType" value="swaggerUrl"/>
+      <property name="propagateTenantHeaders" value="true"/>
+      <property name="ResourceURI" value="https://OIC_HOSTNAME:443/ic/api/integration/v1/flows/rest/SR_ASYNC_PROCESSOR/1.0/account"/>
+    </interaction-spec>
+  </endpoint-interaction>
+</adapter-config>

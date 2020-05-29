@@ -1,0 +1,21 @@
+<!--
+Copyright © 2020, Oracle and/or its affiliates. All rights reserved.
+Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
+-->
+<adapter-config xsdTargetNamespace="http://xmlns.oracle.com/cloud/adapter/stagefile/ReadJSonPayload_REQUEST/types" name="ReadJSonPayload_REQUESTPortType" adapter="stagefile" wsdlLocation="ReadJSonPayload_REQUEST.wsdl" xmlns="http://platform.integration.oracle/blocks/adapter/fw/metadata">
+  <connection-factory location="ics/FileAdapter">
+    <non-managed-connection managedConnectionFactoryClassName="oracle.tip.adapter.file.FileManagedConnectionFactory"/>
+  </connection-factory>
+  <endpoint-activation portType="ReadJSonPayload_REQUESTPortType" operation="Read">
+    <activation-spec className="oracle.tip.adapter.file.inbound.FileActivationSpec">
+      <property name="Operation" value="ReadWithOutChunk"/>
+      <property name="ICSUploadSchemaElementNameSpace" value="http://xmlns.oracle.com/cloud/adapter/stagefile/ReadJSonPayload/types"/>
+      <property name="decryptContent" value="false"/>
+      <property name="ICSUploadSchemaElement" value="request-wrapper"/>
+      <property name="FileRefProcessingEnabled" value="false"/>
+      <property name="RemoveLastRows" value="0"/>
+      <property name="HeterogeneousSchema" value="true"/>
+      <property name="OpaqueSchema" value="false"/>
+    </activation-spec>
+  </endpoint-activation>
+</adapter-config>
