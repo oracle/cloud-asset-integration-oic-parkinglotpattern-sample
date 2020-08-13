@@ -9,7 +9,7 @@ Refer to the blog - [OIC Advanced Error Handling ](https://www.ateam-oracle.com/
 The repository provides the OIC sample integrations and ATP scripts required for the implementation described in the blog.
 
 ## How to Install and Run
-* Download the IAR files from this project and import into target OIC environment
+* Download the IAR files (within zip archives) from this project and import into target OIC environment
 * Configure the required connections and activate the integrations
 * Download the parking lot table creation DDL script file and execute on target database.
 * Refer to the blog - [OIC Advanced Error Handling ](https://www.ateam-oracle.com/advanced-error-handling-oic), for more detailed instructions
@@ -45,7 +45,7 @@ XSD schema file used for persisting json payload into Db parking lot table using
  
 Refer to the blog - [OIC Advanced Error Handling ](https://www.ateam-oracle.com/advanced-error-handling-oic), for a detailed discussion of the Integration design pattern and solution.
 
-Copyright (c) 2020, Oracle and/or its affiliates. All rights reserved.
+Copyright (c) 2020, Oracle and/or its affiliates.
 Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 
 

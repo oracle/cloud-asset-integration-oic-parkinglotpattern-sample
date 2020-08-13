@@ -1,5 +1,5 @@
 <!--
-Copyright © 2020, Oracle and/or its affiliates. All rights reserved.
+Copyright (c) 2020, Oracle and/or its affiliates.
 Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 -->
 <xsl:stylesheet version="1.0" exclude-result-prefixes=" oracle-xsl-mapper xsl ftp cloudpull" xmlns:ftp="__LIST__WSDL__TYPE__NAMESPACE__" xmlns:oracle-xsl-mapper="http://www.oracle.com/xsl/mapper/schemas" xmlns="http://xmlns.oracle.com/ics/scheduler/pull" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:cloudpull="http://xmlns.oracle.com/cloud/list/pull">

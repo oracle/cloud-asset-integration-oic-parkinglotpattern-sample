@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?><!--
-Copyright © 2020, Oracle and/or its affiliates. All rights reserved.
+Copyright (c) 2020, Oracle and/or its affiliates.
 Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 -->
 <!-- Payload from ESS --><schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ics="http://www.oracle.com/2014/03/ics/schedule" xmlns:ns1="http://xml.oracle.com/adapters/extension"         targetNamespace="http://www.oracle.com/2014/03/ics/schedule" elementFormDefault="qualified" version="1">    <element name="schedule" type="ics:ScheduleType"/>    <complexType name="ScheduleType">        <sequence>            <element name="startTime" type="time" minOccurs="0">		<annotation>			<appinfo>				<ns1:title>Start Time</ns1:title>			</appinfo>		</annotation>	</element>       </sequence>    </complexType></schema>

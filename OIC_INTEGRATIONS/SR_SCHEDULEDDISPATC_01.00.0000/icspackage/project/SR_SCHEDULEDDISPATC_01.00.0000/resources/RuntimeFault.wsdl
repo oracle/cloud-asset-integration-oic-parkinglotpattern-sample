@@ -1,5 +1,5 @@
 <!--
-Copyright © 2020, Oracle and/or its affiliates. All rights reserved.
+Copyright © 2020, Oracle and/or its affiliates.
 Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 -->
 <definitions name="RuntimeFault" targetNamespace="http://schemas.oracle.com/bpel/extension" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/wsdl/">  <message name="RuntimeFaultMessage">    <part name="code" type="xsd:string"/>    <part name="summary" type="xsd:string"/>    <part name="detail" type="xsd:string"/>  </message></definitions>

@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <!--
-Copyright © 2020, Oracle and/or its affiliates. All rights reserved.
+Copyright (c) 2020, Oracle and/or its affiliates.
 Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 -->
 <schedule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Run_SR_SCHEDULEDDISPATC_01_00_0000" xmlns="http://xmlns.oracle.com/scheduler"><description/><display-name>Run SR_SCHEDULEDDISPATC_01_00_0000</display-name><time-zone>UTC</time-zone><include-date><year>2020</year><month>3</month><day>14</day><time>7:39:0</time></include-date></schedule>

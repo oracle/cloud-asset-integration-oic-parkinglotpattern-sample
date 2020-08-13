@@ -1,5 +1,5 @@
 <!--
-Copyright © 2020, Oracle and/or its affiliates. All rights reserved.
+Copyright © 2020, Oracle and/or its affiliates.
 Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 -->
 <wsdl:definitions name="ICSFault" targetNamespace="http://www.oracle.com/2014/03/ics/fault" xmlns:ns0="http://www.oracle.com/2014/03/ics/fault" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns="http://www.w3.org/2001/XMLSchema">    <wsdl:types>        <schema>            <import schemaLocation="./ICSFault.xsd" namespace="http://www.oracle.com/2014/03/ics/fault"/>        </schema>    </wsdl:types>    <wsdl:message name="faultMessage">        <wsdl:part name="parameters" element="ns0:fault"/>    </wsdl:message></wsdl:definitions>

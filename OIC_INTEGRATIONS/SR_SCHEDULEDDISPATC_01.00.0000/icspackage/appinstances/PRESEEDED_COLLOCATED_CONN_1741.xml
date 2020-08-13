@@ -1,6 +1,6 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <!--
-Copyright © 2020, Oracle and/or its affiliates. All rights reserved.
+Copyright (c) 2020, Oracle and/or its affiliates.
 Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 -->
 <ns0:ApplicationInstance xmlns:ns0="http://xmlns.oracle.com/adapters/cloud">  <id>ef0fef9e-7347-450c-b4b9-2cc98ded6f4a</id>  <instanceCode>PRESEEDED_COLLOCATED_CONN_1741</instanceCode>  <displayName>Local Integration</displayName>  <applicationTypeRef>collocatedics</applicationTypeRef>  <connectionProperties>    <connectionProperty>      <name>integration_role</name>      <value>TARGET</value>    </connectionProperty>  </connectionProperties>  <securityPolicy>NONE</securityPolicy>  <revision>01.00.0000</revision>  <status>CONFIGURED</status>  <hidden>false</hidden>  <percentageComplete>100</percentageComplete>  <attachments/>  <integrationRole>TARGET</integrationRole></ns0:ApplicationInstance>

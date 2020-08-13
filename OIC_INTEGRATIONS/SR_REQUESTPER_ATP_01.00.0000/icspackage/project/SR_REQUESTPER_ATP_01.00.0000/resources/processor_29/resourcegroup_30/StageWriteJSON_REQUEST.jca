@@ -1,5 +1,5 @@
 <!--
-Copyright © 2020, Oracle and/or its affiliates. All rights reserved.
+Copyright © 2020, Oracle and/or its affiliates.
 Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 -->
 <adapter-config xsdTargetNamespace="http://xmlns.oracle.com/cloud/adapter/stagefile/StageWriteJSON_REQUEST/types" name="StageWriteJSON_REQUESTPortType" adapter="stagefile" wsdlLocation="StageWriteJSON_REQUEST.wsdl" xmlns="http://platform.integration.oracle/blocks/adapter/fw/metadata">

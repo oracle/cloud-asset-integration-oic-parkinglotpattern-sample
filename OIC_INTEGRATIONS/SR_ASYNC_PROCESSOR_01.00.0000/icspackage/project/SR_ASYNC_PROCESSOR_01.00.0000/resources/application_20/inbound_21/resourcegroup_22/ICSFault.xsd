@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1252" ?><!--
-Copyright © 2020, Oracle and/or its affiliates. All rights reserved.
+Copyright © 2020, Oracle and/or its affiliates.
 Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl.
 -->
 <schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:ics="http://www.oracle.com/2014/03/ics/fault"        targetNamespace="http://www.oracle.com/2014/03/ics/fault" elementFormDefault="qualified">    <element name="faults" type="ics:FaultsType"/>        <complexType name="FaultsType">        <sequence>            <element ref="ics:fault" minOccurs="0" maxOccurs="unbounded"/>        </sequence>    </complexType>    <element name="fault" type="ics:FaultType"/>    <complexType name="FaultType">        <all>            <!-- A short string identifying the error (e.g. ICS001) -->            <element name="errorCode" type="string"/>            <!-- Descriptive text explaining the reason for the error -->            <element name="reason" type="string" minOccurs="0"/>            <!-- Any additional details about the error  -->            <element name="details" type="anyType" minOccurs="0"/>        </all>    </complexType></schema>
