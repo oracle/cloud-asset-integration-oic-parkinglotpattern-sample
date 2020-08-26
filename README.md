@@ -9,7 +9,7 @@ Refer to the blog - [OIC Advanced Error Handling ](https://www.ateam-oracle.com/
 The repository provides the OIC sample integrations and ATP scripts required for the implementation described in the blog.
 
 ## How to Install and Run
-* Download the IAR files (within zip archives) from this project and import into target OIC environment
+* Download the IAR files (within zip archives) from [the latest releases](https://github.com/oracle/cloud-asset-integration-oic-parkinglotpattern-sample/releases/latest) and import into target OIC environment
 * Configure the required connections and activate the integrations
 * Download the parking lot table creation DDL script file and execute on target database.
 * Refer to the blog - [OIC Advanced Error Handling ](https://www.ateam-oracle.com/advanced-error-handling-oic), for more detailed instructions
